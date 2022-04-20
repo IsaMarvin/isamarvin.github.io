@@ -35,23 +35,23 @@ li {
   background-size: 100%;
 }
 
-.intro__items {
+.info__items {
   font-size: 1.6rem;
 }
 
-.intro__items--heading {
+.info__heading {
   font-size: 4rem;
   line-height: 5.2rem;
   color: var(--dark-black);
   font-weight: 700;
 }
 
-.intro__items--txt {
+.info__txt {
   line-height: 2.4rem;
   color: var(--text);
 }
 
-.intro__items--subheading {
+.info__subheading {
   color: var(--light-blue);
   font-weight: 500;
 }

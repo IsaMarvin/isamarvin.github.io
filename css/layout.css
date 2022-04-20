@@ -21,16 +21,16 @@
   padding-top: 8.4rem;
 }
 
-.intro__items {
+.info__items {
   margin: 0 2.4rem;
   flex-direction: column;
   gap: 1.3rem;
 }
 
-.intro__items--heading {
+.info__heading {
   max-width: 24rem;
 }
 
-.intro__items--social li {
+.info__social li {
   padding-right: 2rem;
 }
