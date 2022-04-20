@@ -1,0 +1,57 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --light: #e5e5e5;
+  --blue: #6070ff;
+  --light-blue: #7f8cff;
+  --dark-black: #172b4d;
+  --text: #344563;
+  --gray: #7a869a;
+  --btn-bg: #ebebff;
+  --btn-txt: #396df2;
+  --lingo-bg: #f7f7f9;
+  --lingo-txt: #253858;
+}
+
+html {
+  background-color: var(--light);
+}
+
+a {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header__wrapper {
+  background-color: var(--white);
+}
+
+.intro {
+  background-image: url(../images/header-bg.svg);
+  background-color: var(--white);
+  background-size: 100%;
+}
+
+.intro__items {
+  font-size: 1.6rem;
+}
+
+.intro__items--heading {
+  font-size: 4rem;
+  line-height: 5.2rem;
+  color: var(--dark-black);
+  font-weight: 700;
+}
+
+.intro__items--txt {
+  line-height: 2.4rem;
+  color: var(--text);
+}
+
+.intro__items--subheading {
+  color: var(--light-blue);
+  font-weight: 500;
+}
