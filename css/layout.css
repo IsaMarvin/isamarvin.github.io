@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.header__wrapper--items {
+  justify-content: space-between;
+  padding: 2.4rem;
+}
+
+.intro {
+  height: 54rem;
+  border-bottom-left-radius: 10rem;
+  padding-top: 8.4rem;
+}
+
+.info__items {
+  margin: 0 2.4rem;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.info__heading {
+  max-width: 24rem;
+}
+
+.info__social li {
+  padding-right: 2rem;
+}
