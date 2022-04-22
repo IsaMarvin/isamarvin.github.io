@@ -11,6 +11,10 @@
   --btn-txt: #396df2;
   --lingo-bg: #f7f7f9;
   --lingo-txt: #253858;
+  --dark-blue: #2230d2;
+  --old-gray: #5e6c84;
+  --semi-bold: 500;
+  --bold: 700;
 }
 
 html {
@@ -43,7 +47,7 @@ li {
   font-size: 4rem;
   line-height: 5.2rem;
   color: var(--dark-black);
-  font-weight: 700;
+  font-weight: var(--bold);
 }
 
 .info__txt {
@@ -53,5 +57,105 @@ li {
 
 .info__subheading {
   color: var(--light-blue);
-  font-weight: 500;
+  font-weight: var(--semi-bold);
+}
+
+.card {
+  background-color: var(--white);
+}
+
+.card__heading {
+  font-weight: var(--bold);
+  font-size: 3.2rem;
+  color: var(--dark-black);
+}
+
+.card__tags {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.dot {
+  background-color: var(--light);
+}
+
+.card__items {
+  color: var(--gray);
+}
+
+.card__items--dark {
+  color: var(--text);
+}
+
+.card__description {
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: var(--text);
+}
+
+.card__lists {
+  background-color: var(--btn-bg);
+  color: var(--blue);
+  font-weight: var(--semi-bold);
+  font-size: 1.2rem;
+}
+
+.card__button {
+  color: var(--btn-txt);
+  letter-spacing: 0.03em;
+  font-size: 1.8rem;
+  font-weight: var(--semi-bold);
+  background-color: var(--white);
+  cursor: pointer;
+  border: 0.1rem solid var(--blue);
+  border-radius: 1.3rem;
+}
+
+.card__button:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.card__button:active {
+  background: var(--dark-blue);
+  color: var(--white);
+}
+
+.card__button:disabled {
+  background: var(--white);
+  color: var(--old-gray);
+}
+
+.about {
+  background-color: var(--white);
+}
+
+.card__button--about {
+  width: 14rem;
+  letter-spacing: 0.03em;
+}
+
+.stack__item {
+  font-weight: var(--semi-bold);
+  font-size: 2rem;
+}
+
+.lang__items {
+  background-color: var(--lingo-bg);
+  color: var(--lingo-txt);
+}
+
+.lang h4 {
+  font-size: 1.5rem;
+  font-weight: var(--semi-bold);
+  color: var(--lingo-txt);
+}
+
+.skills h3 {
+  font-weight: var(--semi-bold);
+  font-size: 2rem;
+}
+
+.border {
+  border-bottom: 1px solid var(--lingo-bg);
 }
