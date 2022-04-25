@@ -3,11 +3,9 @@
 
 > Portfolio Website made using Vanilla HTML5, CSS3, and linters.
 
-## Screenshot
+## Live Demo 
 
-![screenshot](./images/app_screenshot.png)
-
-| *Screenshot of the intro section of the portfolio*
+[Live Demo](https://isamarvin.github.io/Personal_Portfolio/)
 
 ## Built With
 
