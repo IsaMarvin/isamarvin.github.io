@@ -138,3 +138,28 @@
 .lang__items h4 {
   align-self: center;
 }
+
+.contact {
+  padding: 12rem 2.4rem 6rem;
+  border-top-left-radius: 10rem;
+  align-items: center;
+  text-align: center;
+}
+
+.contact__heading {
+  padding-top: 3rem;
+}
+
+.contact__info {
+  margin-block: 1.2rem 6rem;
+  min-width: 33rem;
+}
+
+.form__items {
+  gap: 1.8rem;
+}
+
+.footer__btn {
+  width: 11rem;
+  border-radius: 0.8rem;
+}
