@@ -13,6 +13,7 @@
   --lingo-txt: #253858;
   --dark-blue: #2230d2;
   --old-gray: #5e6c84;
+  --gryish: #b3bac5;
   --semi-bold: 500;
   --bold: 700;
 }
@@ -158,4 +159,48 @@ li {
 
 .border {
   border-bottom: 1px solid var(--lingo-bg);
+}
+
+footer {
+  background-color: var(--white);
+}
+
+.contact {
+  background: url(../images/footer-bg.svg) var(--blue) right no-repeat;
+}
+
+.contact__heading {
+  font-weight: var(--bold);
+  font-size: 4.2rem;
+  line-height: 5.2rem;
+  color: var(--white);
+}
+
+.contact__info {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: var(--btn-bg);
+}
+
+.input {
+  width: 34rem;
+  border-radius: 0.8rem;
+  border-style: none;
+  padding: 1rem;
+  font-size: 1.7rem;
+  color: var(--dark-black);
+}
+
+.input--text {
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: var(--gryish);
+}
+
+.footer__btn {
+  font-weight: var(--semi-bold);
+  font-size: 1.8rem;
+  color: var(--blue);
+  background-color: var(--white);
+  cursor: pointer;
 }
