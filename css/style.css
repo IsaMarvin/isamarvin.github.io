@@ -63,6 +63,11 @@ li {
 
 .card {
   background-color: var(--white);
+  transition-duration: 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 .card__heading {
@@ -110,6 +115,7 @@ li {
   cursor: pointer;
   border: 0.1rem solid var(--blue);
   border-radius: 1.3rem;
+  transition-duration: 0.4s;
 }
 
 .card__button:hover {
