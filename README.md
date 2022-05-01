@@ -5,7 +5,7 @@
 
 ## Live Demo 
 
-[Live Demo](https://isamarvin.github.io/Personal_Portfolio/)
+[Live Demo](https://isamarvin.github.io/)
 
 ## Built With
 
