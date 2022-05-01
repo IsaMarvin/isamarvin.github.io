@@ -7,17 +7,17 @@
 }
 
 ::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: var(--creamy);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: var(--creamy);
 }
 
 ::-webkit-scrollbar {
-	width: 6px;
-	background-color: var(--creamy);
+  width: 6px;
+  background-color: var(--creamy);
 }
 
 ::-webkit-scrollbar-thumb {
-	background: var(--bg-gradient);
+  background: var(--bg-gradient);
   border-radius: 0.8rem;
 }
 
