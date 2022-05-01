@@ -1,0 +1,215 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --light: #b3bac52e;
+  --blue: #6070ff;
+  --light-blue: #7f8cff;
+  --dark-black: #172b4d;
+  --text: #344563;
+  --gray: #7a869a;
+  --btn-bg: #ebebff;
+  --btn-txt: #396df2;
+  --lingo-bg: #f7f7f9;
+  --lingo-txt: #253858;
+  --dark-blue: #2230d2;
+  --bluish: #9ea8db;
+  --old-gray: #5e6c84;
+  --new-gray: #a1a1a1;
+  --gryish: #b3bac5;
+  --creamy: #f5f5f5;
+  --border-color: #afb6c8b8;
+  --bg-gradient: linear-gradient(150deg, #7f8cff, #b3bac5);
+  --semi-bold: 500;
+  --fw-600: 600;
+  --bold: 700;
+}
+
+::selection {
+  background: var(--bg-gradient);
+  color: var(--bluish);
+}
+
+html {
+  background-color: var(--light);
+}
+
+a {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  background: var(--white);
+}
+
+.intro {
+  background-image: url(../images/header-bg.svg);
+  background-color: var(--white);
+  background-size: cover;
+}
+
+.info__items,
+.about__wrapper {
+  font-size: 1.6rem;
+}
+
+.info__heading {
+  font-size: 4rem;
+  font-weight: var(--bold);
+  color: var(--dark-black);
+}
+
+.info__txt {
+  line-height: 2.4rem;
+  color: var(--text);
+}
+
+.info__subheading {
+  color: var(--light-blue);
+  font-weight: var(--semi-bold);
+}
+
+#works .card {
+  background-color: var(--white);
+}
+
+.card__heading {
+  font-weight: var(--bold);
+  font-size: 3.2rem;
+  color: var(--dark-black);
+}
+
+.card__tags {
+  font-weight: var(--fw-600);
+  font-size: 1.3rem;
+}
+
+.dot {
+  background-color: var(--new-gray);
+}
+
+.card__items {
+  color: var(--gray);
+}
+
+.card__items--dark {
+  color: var(--text);
+}
+
+.card__description {
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: var(--text);
+}
+
+.card__lists {
+  background-color: var(--btn-bg);
+  color: var(--blue);
+  font-weight: var(--semi-bold);
+  font-size: 1.2rem;
+}
+
+.card__button {
+  color: var(--btn-txt);
+  letter-spacing: 0.03em;
+  font-size: 1.8rem;
+  font-weight: var(--semi-bold);
+  background-color: var(--white);
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgb(77 69 119 / 12%), 0 1px 2px rgb(150 152 193 / 24%);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.footer__btn {
+  font-weight: var(--semi-bold);
+  font-size: 1.8rem;
+  color: var(--blue);
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.card__button:hover,
+.footer__btn:hover {
+  background: var(--blue);
+  color: var(--white);
+  box-shadow:
+    0 14px 28px rgb(126 101 229 / 44%),
+    0 10px 10px rgb(187 190 202 / 22%);
+}
+
+.card__button:active,
+.footer__btn:active {
+  background: var(--dark-blue);
+  color: var(--white);
+}
+
+.card__button:disabled,
+.footer__btn:disabled {
+  background: var(--white);
+  color: var(--old-gray);
+}
+
+.about {
+  background-color: var(--white);
+}
+
+.card__button--about {
+  letter-spacing: 0.03em;
+}
+
+.stack__item {
+  font-weight: var(--semi-bold);
+  font-size: 2rem;
+}
+
+.lang__items {
+  background-color: var(--lingo-bg);
+  color: var(--lingo-txt);
+}
+
+.lang h4 {
+  font-size: 1.5rem;
+  font-weight: var(--semi-bold);
+  color: var(--lingo-txt);
+}
+
+.skills h3 {
+  font-weight: var(--semi-bold);
+  font-size: 2rem;
+}
+
+footer {
+  background-color: var(--white);
+}
+
+.contact {
+  background: url(../images/footer-bg.svg) var(--blue) right no-repeat;
+}
+
+.contact__heading {
+  font-weight: var(--bold);
+  font-size: 4.2rem;
+  line-height: 5.2rem;
+  color: var(--white);
+}
+
+.contact__info {
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: var(--btn-bg);
+}
+
+.input {
+  font-size: 1.7rem;
+  color: var(--dark-black);
+}
+
+.input--text {
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: var(--gryish);
+}
+

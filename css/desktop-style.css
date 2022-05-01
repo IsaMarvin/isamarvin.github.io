@@ -1,0 +1,38 @@
+.header {
+  background: transparent;
+  backdrop-filter: blur(40px);
+}
+
+.bg-header {
+  background-color: var(--white);
+}
+
+.nav {
+  color: var(--text);
+  font-size: 1.8rem;
+  font-weight: var(--semi-bold);
+  line-height: 2rem;
+}
+
+.intro {
+  background-image: url(../images/header.svg);
+}
+
+.info__heading {
+  font-size: 4.8rem;
+  line-height: 6rem;
+}
+
+.card__heading {
+  font-weight: 800;
+  font-size: 4rem;
+}
+
+.card__tags {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.contact {
+  background-image: url(../images/desk-contatc.svg);
+}
