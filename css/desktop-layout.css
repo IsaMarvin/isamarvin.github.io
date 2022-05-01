@@ -1,0 +1,143 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 2000;
+  height: 7.2rem;
+  width: 100%;
+}
+
+.bg-header {
+  display: block;
+  height: 7.2rem;
+}
+
+.header__wrapper {
+  padding-inline: 15rem;
+  padding-top: 0;
+  width: 100%;
+}
+
+.logo {
+  padding-top: 1.7rem;
+  padding-bottom: 1rem;
+}
+
+.nav__img {
+  display: none;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  padding-right: 3rem;
+}
+
+.intro {
+  padding: 8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.info__heading {
+  max-width: 40rem;
+}
+
+.info__txt {
+  max-width: 74rem;
+}
+
+.info__subheading {
+  padding-top: 3rem;
+}
+
+.works {
+  margin-inline: 10rem;
+  grid-gap: 15rem;
+}
+
+.card {
+  padding: 2.2rem;
+  grid-template-columns: 48% 52%;
+  grid-template-rows: 45rem;
+  grid-template-areas: "img content";
+}
+
+.card__img {
+  grid-area: img;
+  object-fit: cover;
+  height: 100%;
+}
+
+.card__info {
+  margin-bottom: 8rem;
+  padding: 3rem;
+  grid-area: content;
+}
+
+.card:nth-child(even) {
+  grid-template-areas: "content img";
+  grid-template-columns: 52% 47%;
+}
+
+.card__tags {
+  align-self: center;
+  gap: 1.1rem;
+}
+
+.card__lango {
+  align-items: center;
+}
+
+.card__button {
+  padding-inline: 2.5rem;
+}
+
+.container {
+  padding-inline: 10rem;
+  padding-top: 3rem;
+  grid-template-columns: 40% 60%;
+  grid-gap: 5rem;
+}
+
+.lang {
+  flex-direction: row;
+}
+
+.lang__items {
+  margin-bottom: 2rem;
+  padding-right: 5rem;
+  padding-block: 1.5rem;
+  grid-template-columns: 1fr;
+}
+
+.about {
+  margin-top: 14.2rem;
+}
+
+.about--wrapper {
+  gap: 1.5rem;
+}
+
+.card__button--about {
+  width: 18rem;
+}
+
+.wrap {
+  max-width: 44%;
+}
+
+.input {
+  border-radius: 0;
+}
+
+.footer__btn {
+  align-self: center;
+}

@@ -1,7 +1,7 @@
 :root {
   --white: #fff;
   --black: #000;
-  --light: #e5e5e5;
+  --light: #b3bac52e;
   --blue: #6070ff;
   --light-blue: #7f8cff;
   --dark-black: #172b4d;
@@ -12,10 +12,21 @@
   --lingo-bg: #f7f7f9;
   --lingo-txt: #253858;
   --dark-blue: #2230d2;
+  --bluish: #9ea8db;
   --old-gray: #5e6c84;
+  --new-gray: #a1a1a1;
   --gryish: #b3bac5;
+  --creamy: #f5f5f5;
+  --border-color: #afb6c8b8;
+  --bg-gradient: linear-gradient(150deg, #7f8cff, #b3bac5);
   --semi-bold: 500;
+  --fw-600: 600;
   --bold: 700;
+}
+
+::selection {
+  background: var(--bg-gradient);
+  color: var(--bluish);
 }
 
 html {
@@ -30,25 +41,25 @@ li {
   list-style-type: none;
 }
 
-.header__wrapper {
-  background-color: var(--white);
+header {
+  background: var(--white);
 }
 
 .intro {
   background-image: url(../images/header-bg.svg);
   background-color: var(--white);
-  background-size: 100%;
+  background-size: cover;
 }
 
-.info__items {
+.info__items,
+.about__wrapper {
   font-size: 1.6rem;
 }
 
 .info__heading {
   font-size: 4rem;
-  line-height: 5.2rem;
-  color: var(--dark-black);
   font-weight: var(--bold);
+  color: var(--dark-black);
 }
 
 .info__txt {
@@ -61,7 +72,7 @@ li {
   font-weight: var(--semi-bold);
 }
 
-.card {
+#works .card {
   background-color: var(--white);
 }
 
@@ -72,12 +83,12 @@ li {
 }
 
 .card__tags {
-  font-weight: 600;
+  font-weight: var(--fw-600);
   font-size: 1.3rem;
 }
 
 .dot {
-  background-color: var(--light);
+  background-color: var(--new-gray);
 }
 
 .card__items {
@@ -108,21 +119,35 @@ li {
   font-weight: var(--semi-bold);
   background-color: var(--white);
   cursor: pointer;
-  border: 0.1rem solid var(--blue);
-  border-radius: 1.3rem;
+  box-shadow: 0 1px 3px rgb(77 69 119 / 12%), 0 1px 2px rgb(150 152 193 / 24%);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.card__button:hover {
+.footer__btn {
+  font-weight: var(--semi-bold);
+  font-size: 1.8rem;
+  color: var(--blue);
+  background-color: var(--white);
+  cursor: pointer;
+}
+
+.card__button:hover,
+.footer__btn:hover {
   background: var(--blue);
   color: var(--white);
+  box-shadow:
+    0 14px 28px rgb(126 101 229 / 44%),
+    0 10px 10px rgb(187 190 202 / 22%);
 }
 
-.card__button:active {
+.card__button:active,
+.footer__btn:active {
   background: var(--dark-blue);
   color: var(--white);
 }
 
-.card__button:disabled {
+.card__button:disabled,
+.footer__btn:disabled {
   background: var(--white);
   color: var(--old-gray);
 }
@@ -132,7 +157,6 @@ li {
 }
 
 .card__button--about {
-  width: 14rem;
   letter-spacing: 0.03em;
 }
 
@@ -157,10 +181,6 @@ li {
   font-size: 2rem;
 }
 
-.border {
-  border-bottom: 1px solid var(--lingo-bg);
-}
-
 footer {
   background-color: var(--white);
 }
@@ -183,10 +203,6 @@ footer {
 }
 
 .input {
-  width: 34rem;
-  border-radius: 0.8rem;
-  border-style: none;
-  padding: 1rem;
   font-size: 1.7rem;
   color: var(--dark-black);
 }
@@ -195,12 +211,4 @@ footer {
   font-size: 1.5rem;
   line-height: 2.4rem;
   color: var(--gryish);
-}
-
-.footer__btn {
-  font-weight: var(--semi-bold);
-  font-size: 1.8rem;
-  color: var(--blue);
-  background-color: var(--white);
-  cursor: pointer;
 }
